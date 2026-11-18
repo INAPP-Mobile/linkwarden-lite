@@ -75,7 +75,7 @@ Applicable upstream variables (add in **Variables** as needed — [full list](ht
 | `ALLOW_PRIVATE_NETWORK_ACCESS` / `ALLOW_INSECURE_TLS` | Archive intranet/self-signed sites |
 | `PDF_MARGIN_TOP` / `PDF_MARGIN_BOTTOM` | PDF archive margins |
 | `NEXT_PUBLIC_DISABLE_REGISTRATION` | Close sign-ups (build-time var in this image) |
-| 40+ SSO providers (`NEXT_PUBLIC_<PROVIDER>_ENABLED` + client id/secret) | GitHub, Google, Authentik, Keycloak, generic OIDC, … |
+| 40+ SSO providers (`NEXT_PUBLIC_{PROVIDER}_ENABLED` + client id/secret) | GitHub, Google, Authentik, Keycloak, generic OIDC, … |
 
 ## Credits
 
